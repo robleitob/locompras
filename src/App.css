@@ -1,8 +1,32 @@
-.App {
-  text-align: center;
+ .App {
+  /*text-align: center;*/
 }
 
-.App-logo {
+.App nav{
+color: green;
+background-color: #EF7F1A;
+display: flex; 
+}
+
+.App nav li{
+  display:inline-block;
+  padding:5px 10px;
+  /* background-color:#000; 
+  border:1px solid #000;*/
+  text-align:center;
+  color:#fff;
+}
+
+.App nav a{
+  text-decoration:none;
+    color:inherit;
+    font-size:14px;
+}
+
+.App nav h3{
+  color:blue;
+}
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,3 +60,4 @@
     transform: rotate(360deg);
   }
 }
+ */
