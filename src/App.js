@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import ItemListContainer from './components/ItemList/ItemListContainer';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         subtitulo="...lo mejor de la WEB" 
         darBienvenida={darBienvenida}
       />
-      
+      <ItemListContainer texto = "En este espacio irá el catálogo!!!" />
     </div>
     </>
   );

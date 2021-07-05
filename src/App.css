@@ -1,20 +1,22 @@
  .App {
-  /*text-align: center;*/
+  text-align: center;
 }
-
 .App nav{
-color: green;
+width: 100%;
+height:auto;
 background-color: #EF7F1A;
-display: flex; 
+overflow: hidden;
+position:absolute;
+z-index: 1;
 }
 
-.App nav li{
-  display:inline-block;
+.App nav ul li{
   padding:5px 10px;
   /* background-color:#000; 
   border:1px solid #000;*/
   text-align:center;
-  color:#fff;
+  display: inline;
+  float: left; 
 }
 
 .App nav a{
@@ -23,8 +25,34 @@ display: flex;
     font-size:14px;
 }
 
-.App nav h3{
+/* .App nav h3{
   color:blue;
+  display: inline;
+  float: left; 
+  height: 30px;
+} */
+
+.App nav span{
+  padding: 15px 15px 0px 0px;
+  position: relative;
+  display: inline;
+  float: right; 
+  text-align: right;
+}
+
+.App nav span img{
+  width:20%;
+} 
+
+.listaItem{
+  padding: 200px;
+  display: block;
+}
+
+.logo{
+  display: inline;
+  float: left; 
+  padding: 10px;
 }
 /*.App-logo {
   height: 40vmin;
