@@ -54,6 +54,31 @@ z-index: 1;
   float: left; 
   padding: 10px;
 }
+
+.clicker{
+  padding: 200px;
+  display: block;
+}
+
+.clicker span{
+  padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.clicker button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.clicker button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
 /*.App-logo {
   height: 40vmin;
   pointer-events: none;
