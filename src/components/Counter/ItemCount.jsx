@@ -9,7 +9,7 @@ const Counter = ({initial,stock}) => {
       }
   }
 
-  const downUp = () => {
+  const addDown = () => {
     if(count > initial){
         setCount(count - 1);
     }
@@ -18,7 +18,7 @@ const Counter = ({initial,stock}) => {
   return (
     <div className="clicker">
         
-      <button onClick={downUp}>-</button>
+      <button onClick={addDown}>-</button>
       <span>{count}</span>
       <button onClick={addUp}>+</button>
     </div>
